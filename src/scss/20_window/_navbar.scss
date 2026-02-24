@@ -1,6 +1,8 @@
 /*────────── Navbar ──────────*/
 
 .mobile-navbar {
+	position: relative;
     border-top: 1px solid var(--background-modifier-border);
     box-shadow: var(--navbar-shadow);
+	padding-top: var(--size-4-2);
 }

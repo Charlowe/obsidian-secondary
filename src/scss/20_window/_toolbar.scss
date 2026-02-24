@@ -1,9 +1,17 @@
 /*────────── Toolbar ──────────*/
 
 .mobile-toolbar {
-    width: auto;
+    width: 100%;
     background: var(--mobile-toolbar-bg);
     border: 1px solid var(--background-modifier-border);
     border-radius: var(--radius-l);
-    margin: calc(-1 * var(--size-2-3)) var(--size-4-2) var(--size-4-2) var(--size-4-2);
+    margin: 0;
+	padding: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.mobile-toolbar .mobile-toolbar-options-container {
+	width: 92%;
 }
