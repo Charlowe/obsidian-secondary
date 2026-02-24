@@ -1,0 +1,15 @@
+
+/* Reduces Padding of H1 to match as that of the screenshot */
+h1 { padding-top: 17px; }
+
+/* Removes extra space under the property menu */
+div.metadata-container.is-collapsed { margin-bottom: 0; }
+
+/* Removes the hover effect in mobile */
+body.is-mobile {
+  .view-header {
+    .view-action.clickable-icon:hover svg {
+      color: var(--icon-color);
+    }
+  }
+}
